@@ -51,6 +51,8 @@ p{
     position: sticky;
     margin-left: 80px;
     border-top:  20px;
+    border: solid #00000882 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
     
     
     
@@ -100,12 +102,13 @@ h1 {
     
 }
 
-header .nav{
+header .nav {
     min-height: 80px;
     overflow: hidden;
     background: #525151;
     border: solid;
     overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
 }
 header .h1{
     background: #525151;  
@@ -152,8 +155,7 @@ header .h1{
    
 .sobremi {
     color: white;
-    padding: 50px 0;
-    
+    padding: 50px 0;   
     
 }
 .foto {
@@ -214,9 +216,13 @@ header .h1{
 .contenedor2{
     background-color: #eeeaa7;
     position: relative;
-    left: 30px;
+    left: auto;
     border: 3px double;
     flex-wrap: wrap;
+    height: auto;
+    padding: 3%;
+    border: 3%;
+    min-width: 85px;
 }
 
 .recursos {
@@ -227,6 +233,7 @@ header .h1{
     padding-left: 30px;
     min-width: 400px;
     margin: 2rem;
+    border: solid #060868a3 3px;
     overflow: hidden; /* Evita que los elementos desborden el contenedor */
     display: flex; /* Utiliza flexbox para el diseño flexible */
     flex-wrap: wrap; /* Permite que los elementos se envuelvan cuando no haya suficiente espacio */
@@ -258,10 +265,14 @@ header .h1{
     background-color: beige;
     top: 155px;
     right: 150rem;
-    align-items: baseline;
+    align-items: center;
     max-width: 3968px;
-    max-height: 1000px;
+    max-height: 100px;
     flex-direction: column;
+    height: auto;
+    justify-content: center;
+    
+
 
     
 }
